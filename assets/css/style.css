@@ -5231,6 +5231,13 @@ i.bi-patch-check-fill {
   box-shadow: 0 6px 16px rgba(239, 41, 95, 0.45);
 }
 
+.safety-card-icon img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  object-fit: contain;
+}
+
 .safety-card-title {
   font-family: "Cormorant Garamond", "Instrument Serif", Georgia, serif;
   font-size: 25px;
@@ -5288,20 +5295,32 @@ i.bi-patch-check-fill {
   .safety-grid {
     grid-template-columns: 1fr;
     max-width: 100%;
-    gap: 16px;
+    gap: 18px;
   }
 
   .safety-card {
-    padding: 26px 22px;
-    min-height: auto;
+    padding: 30px 24px 26px;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .safety-card-icon {
+    top: 22px;
+    right: 22px;
+    width: 46px;
+    height: 46px;
   }
 
   .safety-card-title {
-    font-size: 22px;
-    padding-right: 48px;
+    font-size: 26px;
+    padding-right: 0;
+    margin-bottom: 10px;
   }
 
   .safety-card-desc {
-    font-size: 13.5px;
+    font-size: 14px;
+    line-height: 1.55;
   }
 }

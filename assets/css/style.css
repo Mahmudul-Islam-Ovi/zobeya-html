@@ -4307,8 +4307,8 @@ i.bi-patch-check-fill {
   box-sizing: border-box;
   padding: 70px 24px 75px 24px;
 
-  /* Desktop background with stars & looping thread */
-  background-color: #9a9a9d;
+  /* Black deep space background with stars & looping thread */
+  background-color: #0b0b0f;
   background-image: url("../images/landing/double-date-images/double date bg main.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -4374,7 +4374,7 @@ i.bi-patch-check-fill {
   width: 120px;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 4px 18px rgba(255, 51, 102, 0.25));
+  filter: drop-shadow(0 4px 22px rgba(255, 51, 102, 0.4));
   transition: transform 0.3s ease;
 }
 
@@ -4386,7 +4386,7 @@ i.bi-patch-check-fill {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14.5px;
   line-height: 1.65;
-  color: #f0f0f4;
+  color: #d1d1d6;
   max-width: 660px;
   margin: 0 auto;
   font-weight: 400;
@@ -4419,6 +4419,7 @@ i.bi-patch-check-fill {
   width: 100%;
   height: auto;
   display: block;
+  filter: drop-shadow(0 12px 25px rgba(0, 0, 0, 0.45));
 }
 
 .photo-1 {
@@ -4466,7 +4467,7 @@ i.bi-patch-check-fill {
   object-fit: contain;
   pointer-events: none;
   z-index: 1;
-  filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.45));
 }
 
 .scallop-card-content {
@@ -4524,37 +4525,45 @@ i.bi-patch-check-fill {
 
 @media screen and (max-width: 991px) {
   .double-date-section {
-    /* Pure white background for mobile as requested in image */
-    background: #ffffff !important;
-    background-image: none !important;
-    padding: 50px 20px 80px 20px;
+    /* Black starry background for mobile as requested */
+    background-color: #0b0b0f;
+    background-image: url("../images/landing/double-date-images/double date bg main.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 20px 85px 20px;
     min-height: auto;
   }
 
   .double-date-badge {
-    display: none;
+    display: inline-block;
+    margin-bottom: 10px;
   }
 
   .double-date-title {
-    font-size: 38px;
-    line-height: 1.2;
-    margin: 0 0 16px 0;
+    font-size: 34px;
+    line-height: 1.25;
+    margin: 0 0 12px 0;
   }
 
   .double-date-title .title-white {
-    display: none;
+    display: inline;
   }
 
   .double-date-icon-wrapper {
-    margin: 5px auto 40px auto;
+    margin: 8px auto 16px auto;
   }
 
   .double-date-icon {
-    width: 140px;
+    width: 130px;
   }
 
   .double-date-desc {
-    display: none;
+    display: block;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 0 10px;
+    margin-bottom: 10px;
   }
 
   /* 4-Corner Overlapping Photos Layout on Mobile */
@@ -4563,7 +4572,7 @@ i.bi-patch-check-fill {
     width: 100%;
     max-width: 330px;
     height: 380px;
-    margin: 30px auto 30px auto;
+    margin: 35px auto 30px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4631,21 +4640,21 @@ i.bi-patch-check-fill {
 
 @media screen and (max-width: 480px) {
   .double-date-section {
-    padding: 45px 16px 70px 16px;
+    padding: 45px 16px 75px 16px;
   }
 
   .double-date-title {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .double-date-icon {
-    width: 125px;
+    width: 115px;
   }
 
   .double-date-showcase {
     max-width: 310px;
     height: 360px;
-    margin-top: 20px;
+    margin-top: 25px;
   }
 
   .double-date-card-box {

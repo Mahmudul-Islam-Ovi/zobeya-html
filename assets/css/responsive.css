@@ -500,10 +500,7 @@
    }
 
    .hero__watermark {
-      left: -67px;
-      bottom: 79px;
-      width: 225px;
-      opacity: .13;
+      display: none !important;
    }
 
    .hero__copy {

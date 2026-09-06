@@ -164,6 +164,7 @@ img {
 .is-invalid {
   border-color: var(--danger-color) !important;
 }
+
 .error-msg {
   color: var(--danger-color);
   font-size: 13px;
@@ -281,11 +282,9 @@ img {
   z-index: 1000;
   padding: 24px 0 0 0;
   transition: var(--transition);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0) 100%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -322,8 +321,7 @@ img {
 .hero-section {
   position: relative;
   min-height: 100vh;
-  background: url("../images/landing/hero-banner.png") no-repeat center center /
-    cover;
+  background: url("../images/landing/hero-banner.png") no-repeat center center / cover;
   padding: 280px 0 100px;
   overflow: hidden;
 }
@@ -333,22 +331,18 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(16, 172, 187, 0.6) 0%,
-    rgba(232, 49, 91, 0.4) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(16, 172, 187, 0.6) 0%,
+      rgba(232, 49, 91, 0.4) 100%);
   z-index: 1;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.2) 0%,
-    rgba(0, 0, 0, 0.5) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.5) 100%);
   z-index: 1;
 }
 
@@ -363,6 +357,7 @@ img {
 }
 
 @keyframes floatAnim {
+
   0%,
   100% {
     transform: translateY(0px);
@@ -526,12 +521,10 @@ img {
   right: -100px;
   width: 800px;
   height: 800px;
-  background: radial-gradient(
-    circle,
-    rgba(255, 240, 243, 1) 0%,
-    rgba(253, 232, 236, 0.8) 40%,
-    rgba(251, 249, 250, 0) 70%
-  );
+  background: radial-gradient(circle,
+      rgba(255, 240, 243, 1) 0%,
+      rgba(253, 232, 236, 0.8) 40%,
+      rgba(251, 249, 250, 0) 70%);
   z-index: 0;
   pointer-events: none;
 }
@@ -855,11 +848,9 @@ img {
 .profile-card-gradient {
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) 40%,
-    rgba(0, 0, 0, 0.85) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.85) 100%);
   pointer-events: none;
 }
 
@@ -1769,6 +1760,7 @@ i.bi-patch-check-fill {
   .hero__bg {
     display: none;
   }
+
   .hero__bg-mobile {
     display: block;
     object-fit: cover;
@@ -2083,6 +2075,7 @@ i.bi-patch-check-fill {
     line-height: 1.25;
     margin-bottom: 12px;
   }
+
   .hero__copy h1 br {
     display: none;
   }
@@ -2303,8 +2296,7 @@ i.bi-patch-check-fill {
   min-height: 451px;
   overflow: hidden;
   color: #fff;
-  background: url("../images/landing/banner.png") center center / cover
-    no-repeat;
+  background: url("../images/landing/banner.png") center center / cover no-repeat;
   isolation: isolate;
 }
 
@@ -2410,6 +2402,7 @@ i.bi-patch-check-fill {
 }
 
 @keyframes landingIntroImageLeft {
+
   0%,
   42% {
     opacity: 1;
@@ -2450,6 +2443,7 @@ i.bi-patch-check-fill {
 }
 
 @keyframes landingIntroImageRight {
+
   0%,
   42% {
     opacity: 1;
@@ -2514,6 +2508,7 @@ i.bi-patch-check-fill {
 }
 
 @keyframes landingSoftFloat {
+
   0%,
   100% {
     translate: 0 0;
@@ -2525,6 +2520,7 @@ i.bi-patch-check-fill {
 }
 
 @keyframes landingPolaroidLeft {
+
   0%,
   100% {
     transform: rotate(-23deg) translateY(0);
@@ -2536,6 +2532,7 @@ i.bi-patch-check-fill {
 }
 
 @keyframes landingPolaroidRight {
+
   0%,
   100% {
     transform: rotate(25deg) translateY(0);
@@ -2559,6 +2556,7 @@ i.bi-patch-check-fill {
 }
 
 @keyframes landingHeartBeat {
+
   0%,
   100% {
     transform: scale(1);
@@ -2574,6 +2572,7 @@ i.bi-patch-check-fill {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .hero__bg,
   .hero__intro-banner img,
   .hero__polaroids,
@@ -3318,14 +3317,12 @@ i.bi-patch-check-fill {
 
   padding: 2px;
 
-  background: linear-gradient(
-    135deg,
-    #ff2633 0%,
-    #c9272e 28%,
-    rgba(135, 30, 34, 0.45) 55%,
-    #c9272e 78%,
-    #e62a32 100%
-  );
+  background: linear-gradient(135deg,
+      #ff2633 0%,
+      #c9272e 28%,
+      rgba(135, 30, 34, 0.45) 55%,
+      #c9272e 78%,
+      #e62a32 100%);
 
   /*
        Makes center transparent while
@@ -3360,11 +3357,9 @@ i.bi-patch-check-fill {
 
   height: 55px;
 
-  background: radial-gradient(
-    ellipse at center bottom,
-    rgba(255, 27, 48, 0.16),
-    rgba(255, 27, 48, 0) 72%
-  );
+  background: radial-gradient(ellipse at center bottom,
+      rgba(255, 27, 48, 0.16),
+      rgba(255, 27, 48, 0) 72%);
 
   filter: blur(10px);
 
@@ -3762,17 +3757,17 @@ i.bi-patch-check-fill {
 /* ================= FULL BACKGROUND SECTION ================= */
 .cosmic-section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 900px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-  padding: 80px 24px 70px 24px;
+  padding: 75px 24px 25px 24px;
 
-  /* Image Background Settings (Center Moon with Couple) */
+  /* Desktop Background: Starry deep space with couple on moon at bottom */
   background-color: #0b0b0f;
-  background-image: url("assets/images/landing/cosmic chemistry bg.png"); /* Apnar image path din */
+  background-image: url("../images/landing/cosmic chemistry bg.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3783,6 +3778,7 @@ i.bi-patch-check-fill {
     -apple-system,
     BlinkMacSystemFont,
     sans-serif;
+  overflow: hidden;
 }
 
 .cosmic-container {
@@ -3800,17 +3796,18 @@ i.bi-patch-check-fill {
 .cosmic-header {
   text-align: center;
   max-width: 760px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .sub-badge {
   color: #ff3366;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .main-title {
@@ -3819,22 +3816,23 @@ i.bi-patch-check-fill {
   font-size: 46px;
   line-height: 1.25;
   color: #f5f5f7;
-  margin: 0 0 24px 0;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.5px;
 }
 
-/* Boro Size Planet Icon */
+/* Planet / Moon Icon Centerpiece */
 .planet-badge-wrapper {
-  margin: 20px auto 30px auto;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin: 8px 0 14px 0;
 }
 
 .planet-icon {
-  width: 135px; /* Icon boro kora hoyeche */
-  height: 135px;
+  width: 180px;
+  height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 0 35px rgba(255, 51, 102, 0.55));
+  filter: drop-shadow(0 0 28px rgba(255, 51, 102, 0.45));
   transition: transform 0.3s ease;
 }
 
@@ -3847,39 +3845,44 @@ i.bi-patch-check-fill {
   color: #ff3366;
   font-size: 32px;
   font-weight: 400;
-  margin: 0 0 16px 0;
+  margin: 0 0 12px 0;
+  letter-spacing: -0.3px;
 }
 
 .description {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14.5px;
-  line-height: 1.7;
-  color: #d1d1d6;
-  max-width: 650px;
+  line-height: 1.65;
+  color: #c7c7cf;
+  max-width: 630px;
   margin: 0 auto;
   font-weight: 400;
 }
 
-/* Cards Wrapper: Duipashe Space rekhe Majhe Moon dekhabe */
+/* Cards Wrapper: Flanks the center couple/moon silhouette */
 .cosmic-cards-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: stretch;
   gap: 30px;
-  min-height: 380px; /* Center-er couple moon-tike dekhar jaiga rakhe */
-  margin-top: 10px;
+  min-height: 370px;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  position: relative;
+  z-index: 4;
 }
 
 /* Dark Glassmorphism Cards */
 .cosmic-card {
-  width: 330px;
-  background: rgba(28, 28, 30, 0.78);
+  width: 335px;
+  background: rgba(30, 30, 33, 0.88);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  border-radius: 28px;
-  padding: 30px 24px;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 26px;
+  padding: 28px 24px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55);
   box-sizing: border-box;
 }
 
@@ -3889,13 +3892,13 @@ i.bi-patch-check-fill {
   font-size: 22px;
   font-weight: 400;
   color: #f5f5f7;
-  margin: 0 0 24px 0;
+  margin: 0 0 22px 0;
 }
 
 .element-list {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 16px;
 }
 
 .element-item {
@@ -3918,12 +3921,15 @@ i.bi-patch-check-fill {
 .icon-fire svg {
   color: #ff3b5c;
 }
+
 .icon-water svg {
   color: #007aff;
 }
+
 .icon-earth svg {
   color: #34c759;
 }
+
 .icon-air svg {
   color: #af52de;
 }
@@ -3936,14 +3942,16 @@ i.bi-patch-check-fill {
 }
 
 .element-name {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
 }
 
 .element-desc {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 11px;
-  color: #a1a1a6;
+  color: #9c9ca4;
   margin-top: 2px;
 }
 
@@ -3953,6 +3961,7 @@ i.bi-patch-check-fill {
 }
 
 .metric-val {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   font-weight: 700;
   color: #ffffff;
@@ -3963,54 +3972,66 @@ i.bi-patch-check-fill {
 .progress-bar-bg {
   width: 100%;
   height: 4px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
   overflow: hidden;
 }
 
 .progress-bar-fill {
   height: 100%;
-  border-radius: 4px;
+  border-radius: 999px;
 }
 
 .fill-fire {
   background: #ff3b5c;
 }
+
 .fill-water {
   background: #007aff;
 }
+
 .fill-earth {
   background: #34c759;
 }
+
 .fill-air {
   background: #af52de;
 }
 
 /* Personality Card */
+.personality-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card-header-flex {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .brand-tag {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   color: #c7c7cc;
   display: block;
   margin-bottom: 4px;
 }
 
-.highlight-brand {
+.brand-tag .highlight-brand {
   color: #ff3366;
   font-weight: 700;
 }
 
 .partner-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: #ffffff;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
   margin: 0;
+  letter-spacing: -0.2px;
 }
 
 .avatar-group {
@@ -4030,16 +4051,23 @@ i.bi-patch-check-fill {
   margin-left: -10px;
 }
 
+.personality-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .feature-subheading {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .icon-star-badge {
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   background: #ffffff;
   display: flex;
@@ -4050,51 +4078,217 @@ i.bi-patch-check-fill {
 }
 
 .sub-label {
-  font-size: 13px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 13.5px;
   font-weight: 600;
   color: #ffffff;
   margin: 0 0 3px 0;
 }
 
 .zodiac-match {
-  font-size: 12px;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12.5px;
   color: #d1d1d6;
   margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.zodiac-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #8e44ad;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 11px;
+  width: 17px;
+  height: 17px;
+  line-height: 1;
 }
 
 .personality-quote {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
   font-size: 13.5px;
   font-style: italic;
-  line-height: 1.55;
-  color: #e5e5ea;
+  line-height: 1.6;
+  color: #d8d8e0;
 }
 
-/* ================= MOBILE & TABLET RESPONSIVE ================= */
-@media screen and (max-width: 900px) {
+/* ================= BOTTOM GRASS SILHOUETTE ================= */
+.cosmic-bottom-grass {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  pointer-events: none;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.cosmic-bottom-grass img {
+  width: 100%;
+  min-width: 1200px;
+  height: 110px;
+  object-fit: cover;
+  object-position: bottom center;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ================= RESPONSIVE (TABLET & MOBILE) ================= */
+@media screen and (max-width: 991px) {
   .cosmic-section {
-    background-position: center bottom;
+    /* Mobile separate background image as requested + subtle cosmic star particles */
+    background-color: #0b0b0f;
+    background-image: 
+      url("../images/landing/Astrology mobile.png"),
+      radial-gradient(2px 2px at 20% 8%, rgba(255, 255, 255, 0.95), transparent),
+      radial-gradient(1.5px 1.5px at 82% 12%, rgba(255, 255, 255, 0.85), transparent),
+      radial-gradient(2px 2px at 12% 22%, rgba(255, 255, 255, 0.8), transparent),
+      radial-gradient(1px 1px at 65% 18%, rgba(255, 255, 255, 0.7), transparent),
+      radial-gradient(2px 2px at 90% 32%, rgba(255, 255, 255, 0.9), transparent),
+      radial-gradient(1.5px 1.5px at 8% 42%, rgba(255, 255, 255, 0.75), transparent),
+      radial-gradient(2px 2px at 92% 52%, rgba(255, 255, 255, 0.85), transparent),
+      radial-gradient(1px 1px at 35% 38%, rgba(255, 255, 255, 0.6), transparent),
+      radial-gradient(1.5px 1.5px at 78% 62%, rgba(255, 255, 255, 0.75), transparent);
+    background-position: 
+      center bottom,
+      center top,
+      center top,
+      center top,
+      center top,
+      center top,
+      center top,
+      center top,
+      center top,
+      center top;
+    background-repeat: no-repeat;
+    background-size: 
+      min(100%, 460px) auto,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%,
+      100% 100%;
     padding-top: 60px;
-    padding-bottom: 420px; /* Mobile-e niche background-er moon dekhar space toiri kore */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 460px;
+    min-height: auto;
+  }
+
+  .cosmic-header {
+    margin-bottom: 36px;
+  }
+
+  .main-title {
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+  }
+
+  .planet-icon {
+    width: 150px;
+    height: auto;
+  }
+
+  .highlight-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 13.5px;
+    line-height: 1.6;
+    padding: 0 10px;
   }
 
   .cosmic-cards-wrapper {
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 22px;
+    min-height: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 
   .cosmic-card {
     width: 100%;
-    max-width: 440px;
+    max-width: 390px;
+    padding: 26px 22px;
+    border-radius: 24px;
+  }
+
+  .personality-card {
+    display: block;
+  }
+
+  .personality-quote {
+    margin-top: 16px;
+  }
+
+  .cosmic-bottom-grass {
+    height: 70px;
+  }
+
+  .cosmic-bottom-grass img {
+    min-width: 100%;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cosmic-section {
+    background-size: 100% auto;
+    padding-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 470px;
   }
 
   .main-title {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.25;
   }
 
   .planet-icon {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+  }
+
+  .highlight-title {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 13px;
+    padding: 0;
+  }
+
+  .cosmic-card {
+    max-width: 100%;
+    padding: 22px 18px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .cosmic-bottom-grass {
+    height: 55px;
+  }
+
+  .cosmic-bottom-grass img {
+    height: 55px;
   }
 }

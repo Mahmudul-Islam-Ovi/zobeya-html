@@ -3396,22 +3396,33 @@ i.bi-patch-check-fill {
 .zobeya-icon-2 {
   position: absolute;
   top: 23px;
-  right: 27px;
-  width: 180px;
-  height: 145px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  right: 20px;
+  width: 170px;
+  height: 125px;
   z-index: 3;
   pointer-events: none;
 }
 
-.zobeya-icon-2 img {
+.zobeya-icon-2 .heart-main {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 122px;
+  height: auto;
   display: block;
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-  filter: drop-shadow(0 5px 7px rgba(255, 15, 70, 0.16));
+  z-index: 1;
+  filter: drop-shadow(0 6px 12px rgba(255, 15, 70, 0.2));
+}
+
+.zobeya-icon-2 .heart-small {
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+  width: 76px;
+  height: auto;
+  display: block;
+  z-index: 2;
+  filter: drop-shadow(0 6px 12px rgba(255, 15, 70, 0.25));
 }
 
 /* =========================================
@@ -3608,6 +3619,13 @@ i.bi-patch-check-fill {
     top: 22px;
   }
 
+  .zobeya-icon-2 {
+    width: 155px;
+    height: 115px;
+    right: 15px;
+    top: 22px;
+  }
+
   .zobeya-card h3 {
     font-size: 32px;
   }
@@ -3670,6 +3688,13 @@ i.bi-patch-check-fill {
 
     width: 155px;
     height: 130px;
+  }
+
+  .zobeya-icon-2 {
+    top: 20px;
+    right: 18px;
+    width: 150px;
+    height: 115px;
   }
 
   .zobeya-card-label {

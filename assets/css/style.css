@@ -1694,6 +1694,7 @@ i.bi-patch-check-fill {
 .hero {
   position: relative;
   min-height: 796px;
+  min-height: max(796px, calc(100vw * (796 / 1440)));
   color: #fff;
   --intro-left-x: calc(50% - 572px);
   --intro-right-x: calc(50% - 517px);
@@ -1744,7 +1745,7 @@ i.bi-patch-check-fill {
 
 .hero__bg {
   object-fit: cover;
-  object-position: center top;
+  object-position: center bottom;
 }
 
 .hero__bg-mobile {
@@ -1763,7 +1764,7 @@ i.bi-patch-check-fill {
     background-color: #000000;
     width: 100%;
     height: 100%;
-    object-position: center top;
+    object-position: center bottom;
   }
 }
 
@@ -2057,10 +2058,26 @@ i.bi-patch-check-fill {
   color: #fff;
 }
 
+.hero__br--desktop {
+  display: inline;
+}
+
+.hero__br--mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
+  .hero__br--desktop {
+    display: none;
+  }
+
+  .hero__br--mobile {
+    display: block;
+  }
+
   .hero__copy {
     position: absolute;
-    top: 10px;
+    top: 310px;
     left: 20px;
     right: 20px;
     width: auto;
@@ -2068,18 +2085,14 @@ i.bi-patch-check-fill {
   }
 
   .hero__copy h1 {
-    font-size: 30px;
-    line-height: 1.25;
+    font-size: clamp(30px, 7vw, 36px);
+    line-height: 1.24;
     margin-bottom: 12px;
   }
 
-  .hero__copy h1 br {
-    display: none;
-  }
-
   .hero__copy p {
-    font-size: 13px;
-    line-height: 1.5;
+    font-size: 15px;
+    line-height: 1.45;
   }
 }
 
@@ -2087,7 +2100,7 @@ i.bi-patch-check-fill {
   position: absolute;
   z-index: 2;
   left: calc(50% + 197px);
-  top: 512px;
+  top: 480px;
   width: 397px;
   animation: landingCopyIn 650ms ease-out 1580ms both;
 }

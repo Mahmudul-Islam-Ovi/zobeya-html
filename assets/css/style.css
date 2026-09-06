@@ -4146,7 +4146,7 @@ i.bi-patch-check-fill {
   .cosmic-section {
     /* Mobile separate background image as requested + subtle cosmic star particles */
     background-color: #0b0b0f;
-    background-image: 
+    background-image:
       url("../images/landing/Astrology mobile.png"),
       radial-gradient(2px 2px at 20% 8%, rgba(255, 255, 255, 0.95), transparent),
       radial-gradient(1.5px 1.5px at 82% 12%, rgba(255, 255, 255, 0.85), transparent),
@@ -4157,7 +4157,7 @@ i.bi-patch-check-fill {
       radial-gradient(2px 2px at 92% 52%, rgba(255, 255, 255, 0.85), transparent),
       radial-gradient(1px 1px at 35% 38%, rgba(255, 255, 255, 0.6), transparent),
       radial-gradient(1.5px 1.5px at 78% 62%, rgba(255, 255, 255, 0.75), transparent);
-    background-position: 
+    background-position:
       center bottom,
       center top,
       center top,
@@ -4169,7 +4169,7 @@ i.bi-patch-check-fill {
       center top,
       center top;
     background-repeat: no-repeat;
-    background-size: 
+    background-size:
       min(100%, 460px) auto,
       100% 100%,
       100% 100%,
@@ -4513,14 +4513,42 @@ i.bi-patch-check-fill {
     padding: 60px 16px;
   }
 
-  .photo-1 { width: 145px; }
-  .photo-2 { width: 155px; margin-left: 10px; margin-right: 15px; }
-  .double-date-card-box { width: 290px; height: 290px; }
-  .math-line { font-size: 23px; }
-  .math-highlight { margin-bottom: 16px; }
-  .math-footer { font-size: 18px; }
-  .photo-3 { width: 165px; margin-left: 15px; margin-right: 10px; }
-  .photo-4 { width: 140px; }
+  .photo-1 {
+    width: 145px;
+  }
+
+  .photo-2 {
+    width: 155px;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+
+  .double-date-card-box {
+    width: 290px;
+    height: 290px;
+  }
+
+  .math-line {
+    font-size: 23px;
+  }
+
+  .math-highlight {
+    margin-bottom: 16px;
+  }
+
+  .math-footer {
+    font-size: 18px;
+  }
+
+  .photo-3 {
+    width: 165px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .photo-4 {
+    width: 140px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -5116,12 +5144,10 @@ i.bi-patch-check-fill {
 .safety-section {
   position: relative;
   width: 100%;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(15, 17, 23, 0.48) 0%,
       rgba(15, 17, 23, 0.28) 50%,
-      rgba(15, 17, 23, 0.38) 100%
-    ),
+      rgba(15, 17, 23, 0.38) 100%),
     url("../images/landing/Safety bg.png");
   background-size: cover;
   background-position: center center;
@@ -5191,7 +5217,8 @@ i.bi-patch-check-fill {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  max-width: 660px; /* Sits on left half leaving sunset couple visible */
+  max-width: 660px;
+  /* Sits on left half leaving sunset couple visible */
 }
 
 /* Safety Card */
@@ -5260,10 +5287,8 @@ i.bi-patch-check-fill {
   .safety-section {
     padding: 65px 0 75px;
     background-position: center top;
-    background-image: linear-gradient(
-        rgba(15, 17, 23, 0.6),
-        rgba(15, 17, 23, 0.6)
-      ),
+    background-image: linear-gradient(rgba(15, 17, 23, 0.6),
+        rgba(15, 17, 23, 0.6)),
       url("../images/landing/Safety bg.png");
   }
 
@@ -5464,35 +5489,18 @@ i.bi-patch-check-fill {
 /* Right Visual Column */
 .why-zobeya-visual {
   flex: 1;
-  max-width: 540px;
-  display: flex;
-  justify-content: center;
-}
-
-.why-zobeya-visual-card {
   position: relative;
-  width: 100%;
-  max-width: 500px;
-  background: radial-gradient(
-      circle at 60% 40%,
-      rgba(40, 42, 50, 0.5) 0%,
-      rgba(22, 24, 29, 0.8) 100%
-    );
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 36px;
-  padding: 40px 20px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+  align-items: center;
 }
 
-.why-phones-img {
+.why-main-img {
   width: 100%;
-  max-width: 450px;
+  max-width: 534px;
   height: auto;
   display: block;
-  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.45));
 }
 
 /* Mobile Responsiveness */
@@ -5548,15 +5556,143 @@ i.bi-patch-check-fill {
   .why-zobeya-visual {
     max-width: 100%;
     width: 100%;
+    min-height: auto;
+    margin-top: 25px;
   }
 
-  .why-zobeya-visual-card {
-    max-width: 380px;
-    border-radius: 28px;
-    padding: 30px 15px;
+  .why-main-img {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .why-main-img {
+    max-width: 330px;
+  }
+}
+
+/* ==========================================================================
+   READY TO MEET SOMEONE TONIGHT SECTION
+   ========================================================================== */
+.ready-section {
+  position: relative;
+  width: 100%;
+  background-color: #fb2157;
+  background-image: url("../images/landing/ready bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 85px 20px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ready-container {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.ready-title {
+  font-family: "Cormorant Garamond", "Instrument Serif", Georgia, serif;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 1.15;
+  color: #ffffff;
+  margin: 0 0 18px 0;
+  letter-spacing: -0.5px;
+}
+
+.ready-subtitle {
+  font-family: "Figtree", "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: #ffffff;
+  margin: 0 auto 32px;
+  max-width: 580px;
+  opacity: 0.95;
+}
+
+.ready-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  border-radius: 9999px;
+  padding: 15px 38px;
+  font-family: "Figtree", "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.ready-cta-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.ready-footnote {
+  font-family: "Figtree", "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 22px 0 0 0;
+  opacity: 0.95;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 991px) {
+  .ready-section {
+    padding: 90px 24px 85px;
   }
 
-  .why-phones-img {
-    max-width: 340px;
+  .ready-title {
+    font-size: 46px;
+    margin-bottom: 20px;
+    line-height: 1.15;
+  }
+
+  .ready-subtitle {
+    font-size: 15px;
+    max-width: 440px;
+    margin-bottom: 30px;
+    line-height: 1.55;
+  }
+
+  .ready-cta-btn {
+    width: 100%;
+    max-width: 290px;
+    padding: 15px 24px;
+    font-size: 13.5px;
+  }
+
+  .ready-footnote {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ready-title {
+    font-size: 38px;
   }
 }
